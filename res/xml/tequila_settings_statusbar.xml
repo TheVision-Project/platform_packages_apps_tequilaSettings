@@ -3,6 +3,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/tequila_settings_statusbar" >
 
+    <!-- 4G icon -->
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:title="@string/show_fourg_icon_title"
+        android:summary="@string/show_fourg_icon_summary"
+        android:defaultValue="false"/>
+    
     <!-- System UI Tuner -->
     <Preference
         android:key="system_ui_tuner"
