@@ -10,6 +10,13 @@
         android:summary="@string/show_fourg_icon_summary"
         android:defaultValue="false"/>
     
+    <!-- Data disabled indicator -->
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:defaultValue="true"/>
+    
     <!-- System UI Tuner -->
     <Preference
         android:key="system_ui_tuner"
