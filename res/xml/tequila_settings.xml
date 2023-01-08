@@ -9,4 +9,10 @@
         android:fragment="com.tequila.settings.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
 
+    <Preference
+        android:key="misc_fragment"
+        android:title="@string/tequila_settings_misc" 
+        android:fragment="com.tequila.settings.fragments.MiscSettings"
+        android:icon="@drawable/ic_settings_misc"/>
+
 </PreferenceScreen>
